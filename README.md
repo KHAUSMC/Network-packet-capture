@@ -98,6 +98,12 @@ sudo tcpdump -nn -r capture.pcap -X
 
 ![Insert Picture Here](https://i.imgur.com/uLCu6xw.png)
 
+### Command Breakdown:
+- `-nn`: Disables IP address and port resolution to prevent unnecessary lookups.
+- `-r capture.pcap`: Reads from the saved packet capture file.
+- `-X`: Displays packet data in both hexadecimal and ASCII formats, which is useful for forensic and malware analysis.
+
+
 This helps in forensic and malware analysis by allowing security analysts to detect patterns or anomalies.
 
 ---
